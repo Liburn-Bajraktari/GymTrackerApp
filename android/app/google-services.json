@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934993196355",
+    "project_id": "gymtracker-78e2b",
+    "storage_bucket": "gymtracker-78e2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934993196355:android:267d5b45b259437484ebf6",
+        "android_client_info": {
+          "package_name": "com.gymtrackerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL-XJYViRB67vIdJXtskWuaVL3p5xxJqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

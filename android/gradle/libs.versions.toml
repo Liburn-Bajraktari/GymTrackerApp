@@ -1,0 +1,65 @@
+[versions]
+activityKtx = "1.4.0"
+agp = "8.4.2"
+androidxJunit = "1.1.5"
+appcompat = "1.7.0"
+constraintlayout = "2.1.4"
+coreKtxVersion = "1.7.0"
+espressoCoreVersion = "3.4.0"
+googleServices = "4.4.2"
+gradle = "8.6"
+kotlin = "1.9.20"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+kotlinStdlib = "1.9.22"
+lifecycleRuntimeKtx = "2.8.2"
+activityCompose = "1.9.0"
+composeBom = "2023.08.00"
+lifecycleRuntimeKtxVersion = "2.4.0"
+material = "1.12.0"
+materialVersion = "1.0.5"
+reactNativeGestureHandler = "1.10.3"
+ui = "1.0.5"
+uiTooling = "1.0.5"
+uiToolingPreview = "1.0.5"
+
+[libraries]
+androidxActivityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidxAppcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidxConstraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidxMaterial = { module = "androidx.compose.material:material", version.ref = "materialVersion" }
+coreKtxV170 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+espressoCoreV340 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+extJunit = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+gesturehandlerReactNativeGestureHandler = { module = "com.swmansion.gesturehandler:react-native-gesture-handler", version.ref = "reactNativeGestureHandler" }
+googleMaterial = { module = "com.google.android.material:material", version.ref = "material" }
+googleServices = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlinStdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+androidGradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
+kotlinStdlibV1922 = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinStdlib" }
+lifecycleRuntimeKtxV240 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+constraintLayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
+lifecycleRuntimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+composeUi = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+composeMaterial = { module = "androidx.compose.material:material", version.ref = "compose" }
+composeUiTooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+composeUiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+reactNative = { module = "com.facebook.react:react-native", version.ref = "reactNative" }
+reactNativeGestureHandler = { module = "com.swmansion.gesturehandler:react-native-gesture-handler", version.ref = "reactNativeGestureHandler" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidxJUnit = { module = "androidx.test.ext:junit", version.ref = "androidxJUnit" }
+espressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCore" }
+ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+uiTooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
